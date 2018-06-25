@@ -2,6 +2,10 @@ body {
 	background-color: #009999;
 }
 
-h1, p, ul, li {
+h1, p {
 	color: white;
+}
+
+ul {
+	color: white
 }
