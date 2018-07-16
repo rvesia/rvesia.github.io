@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:500');
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
 
 body{
 	font-family: 'Raleway', sans-serif;
 }
 h1{
-	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Shrikhand', cursive;
 	font-size: 4em;
 }
 .intro{
-	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Shrikhand', cursive;
 
 }
 h2{
-	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Shrikhand', cursive;
 }
 h3{
-	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Shrikhand', cursive;
 
 }
 h4{
