@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:500');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
 
 body{
 	font-family: 'Raleway', sans-serif;
+}
+h1{
+font-family: 'Luckiest Guy', cursive;
+}
+.intro{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+	
 }
