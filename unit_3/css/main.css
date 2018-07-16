@@ -5,7 +5,8 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 h1{
-font-family: 'Luckiest Guy', cursive;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 4em;
 }
 .intro{
 
@@ -17,5 +18,5 @@ h3{
 
 }
 h4{
-	
+
 }
