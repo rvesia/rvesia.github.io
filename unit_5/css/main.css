@@ -3,8 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Amaranth');
 
 
-.wrapper{
-	background-color: #A9A9A9;
+#wrapper{
+	background-color: #096DE8;
+	border: 1px black solid;
+	padding: 20px;
 }
 header{
 	background-color:#BFF1FF;
