@@ -38,6 +38,9 @@ footer{
 	border: 1px black solid;
 	padding: 20px;
 }
+p{
+	width: 30em;
+}
 body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
