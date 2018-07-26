@@ -3,32 +3,36 @@
 @import url('https://fonts.googleapis.com/css?family=Amaranth');
 
 
-#wrapper{
+.wrapper{
 	background-color: #A9A9A9;
 }
-
 header{
-	background-color:7CF1FF;
+	background-color:#BFF1FF;
 	border: 1px black solid;
 	padding: 20px;
 }
-#workshops{
-	background-color:0CE8C6;
+.intro{
+	background-color:#7CF1FF;
 	border: 1px black solid;
 	padding: 20px;
 }
-#merch{
-	background-color:00FF92;
+.workshops{
+	background-color:#0CE8C6;
 	border: 1px black solid;
 	padding: 20px;
 }
-#teachers{
-	background-color:00E845;
+.merch{
+	background-color:#00FF92;
+	border: 1px black solid;
+	padding: 20px;
+}
+.teachers{
+	background-color:#00E845;
 	border: 1px black solid;
 	padding: 20px;
 }
 footer{
-	background-color:67FF6B;
+	background-color:#67FF6B;
 	border: 1px black solid;
 	padding: 20px;
 }
