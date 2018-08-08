@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+
+#wrapper{
+	background-color: #096DE8;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav li{
+	float: left;
+	padding: 20px;
+}
+header{
+	background-color:#BFF1FF;
+	border: 1px black solid;
+	padding: 20px;
+}
+.intro{
+	background-color:#7CF1FF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#workshops{
+	background-color:#0CE8C6;
+	border: 1px black solid;
+	padding: 20px;
+}
+#winfo{
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 20%;
+}
+#wofferings{
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 10%;
+}
+#wscroll{
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 55%
+}
+#merch{
+	background-color:#00FF92;
+	border: 1px black solid;
+	padding: 20px;
+}
+#minfo{
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 20%;
+}
+#mofferings{
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 10%;
+}
+#mscroll{
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 55%
+}
+#teachers{
+	background-color:#00E845;
+	border: 1px black solid;
+	padding: 20px;
+}
+#tinfo{
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+#tofferings{
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 60%;
+}
+footer{
+	background-color:#67FF6B;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+h1{
+	font-family: 'Merienda', cursive;
+	font-size: 5em;
+}
+#tagline{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2em;
+}
+h2{
+	font-family: 'Amaranth', sans-serif;
+}
+h3{
+	font-family: 'Amaranth', sans-serif;
+}
+h4{
+	font-family: 'Amaranth', sans-serif;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

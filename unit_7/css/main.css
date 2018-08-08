@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+
+#wrapper{
+	background-color: #2B2B2B;
+	/*border: 1px black solid;*/
+	padding: 20px;
+}
+#logolinks a{
+	padding: 20px;
+	float: right;
+}
+nav li{
+	list-style-type: none;
+	color: white;
+	float: left;
+	padding: 20px;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.content {
+	display:none;
+	position: absolute;
+	width: 100%;
+}
+.dropdown:hover .content{
+	display: block;
+}
+header a{
+	text-decoration: none;
+	color: white;
+	
+}
+header{
+	background-color:#424242;
+	/*border: 1px black solid;*/
+	padding: 20px;
+}
+.intro{
+	background-color:#FFFFFF;
+	/*border: 1px black solid;*/
+	padding: 20px;
+}
+.scroll{
+	background-color:#FFFFFF;
+	padding: 20px;
+	width: 55%
+}
+#workshops{
+	/*background-color:#0CE8C6;
+	border: 1px black solid;*/
+	padding: 20px;
+}
+
+#wscroll{
+	float: left;
+}
+#waside{
+	background-color: #8EB409;
+	float: right;
+	width: 35%
+}
+#winfo{
+	/*background-color: #ffb7cf;
+	border: 1px black solid;*/
+	padding: 20px;
+}
+#wofferings{
+	/*background-color: #e582a2;
+	border: 1px black solid;*/
+	padding: 20px;
+}
+#wofferings a{
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#merch{
+	/*background-color:#00FF92;
+	border: 1px black solid;*/
+	padding: 20px;
+}
+#mscroll{
+	float: left;
+}
+#maside{
+	background-color: #8EB409;
+	float: right;
+	width: 35%;
+}
+#minfo{
+	/*background-color: #ffb7cf;
+	border: 1px black solid;*/
+	padding: 20px;
+}
+#mofferings{
+	/*background-color: #e582a2;
+	border: 1px black solid;*/
+	padding: 20px;
+}
+#mofferings a{
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#teachers{
+	background-color:#2B2B2B;
+	padding: 20px;
+}
+#tinfo{
+	background-color: #FFFFFF;
+	padding: 20px;
+	float: left;
+	width: 50%;
+}
+#tofferings{
+	background-color: #8EB409;
+	padding: 20px;
+	float: right;
+	width: 40%;
+}
+#tofferings a{
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+footer{
+	/*background-color:#67FF6B;
+	border: 1px black solid;*/
+	padding: 20px;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+h1{
+	font-family: 'Merienda', cursive;
+	font-size: 5em;
+}
+#tagline{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2em;
+}
+h2{
+	font-family: 'Amaranth', sans-serif;
+}
+h3{
+	font-family: 'Amaranth', sans-serif;
+}
+h4{
+	font-family: 'Amaranth', sans-serif;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
