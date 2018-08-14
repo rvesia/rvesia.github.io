@@ -5,18 +5,21 @@
 
 #wrapper{
 	background-color: #2B2B2B;
-	/*border: 1px black solid;*/
 	padding: 20px;
 }
 #logolinks a{
 	padding: 20px;
 	float: right;
 }
+nav ul{
+	text-align: center;
+	padding: 0;
+}
 nav li{
 	list-style-type: none;
 	color: white;
-	float: left;
 	padding: 20px;
+	display: inline-block;
 }
 .dropdown {
 	position: relative;
@@ -33,108 +36,133 @@ nav li{
 header a{
 	text-decoration: none;
 	color: white;
-	
 }
 header{
 	background-color:#424242;
-	/*border: 1px black solid;*/
 	padding: 20px;
+}
+header img{
+	width:5%;
+}
+h2{
+	text-align: center;
 }
 .intro{
 	background-color:#FFFFFF;
-	/*border: 1px black solid;*/
 	padding: 20px;
+	text-align: center;
+}
+#workshops{
+	padding: 20px;
+}
+#waside{
+	background-color: #8EB409;
+	float: left;
+	width: 35%
+}
+#winfo{
+	padding: 20px;
+	width: 80%;
+	margin: auto;
+	color: white;
+}
+#wofferings{
+	padding: 20px;
+}
+.offerings a{
+	padding: 10px;
+	margin: 10px 0;
+	display: block;
+	text-decoration: none;
+	color: #8EB409;
+	background-color: white;
+	width: 50%;
+	text-align: center;
 }
 .scroll{
 	background-color:#FFFFFF;
 	padding: 20px;
-	width: 55%
+	width: 60%;
 }
-#workshops{
-	/*background-color:#0CE8C6;
-	border: 1px black solid;*/
-	padding: 20px;
+.scroll h3{
+	text-align: center;
 }
-
-#wscroll{
-	float: left;
-}
-#waside{
-	background-color: #8EB409;
-	float: right;
-	width: 35%
-}
-#winfo{
-	/*background-color: #ffb7cf;
-	border: 1px black solid;*/
-	padding: 20px;
-}
-#wofferings{
-	/*background-color: #e582a2;
-	border: 1px black solid;*/
-	padding: 20px;
-}
-#wofferings a{
-	padding: 20px;
+.scroll img{
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+.scroll a{
 	text-decoration: none;
+	background-color: #8EB409;
 	color: white;
+	text-align: center;
+	display: block;
+	width: 50%;
+	margin: auto;
+	padding: 10px 0;
+	
+}
+#wscroll{
+	float: right;
+}
+.scrollinfo{
+	width: 60%;
+	margin: auto;
 }
 #merch{
-	/*background-color:#00FF92;
-	border: 1px black solid;*/
+	background-color:#2B2B2B;
 	padding: 20px;
-}
-#mscroll{
-	float: left;
 }
 #maside{
 	background-color: #8EB409;
-	float: right;
+	float: left;
 	width: 35%;
 }
 #minfo{
-	/*background-color: #ffb7cf;
-	border: 1px black solid;*/
 	padding: 20px;
+	color: white;
 }
 #mofferings{
-	/*background-color: #e582a2;
-	border: 1px black solid;*/
 	padding: 20px;
 }
-#mofferings a{
-	padding: 20px;
-	display: block;
-	text-decoration: none;
-	color: white;
+#mscroll{
+	float: right;
 }
 #teachers{
 	background-color:#2B2B2B;
 	padding: 20px;
 }
 #tinfo{
-	background-color: #FFFFFF;
-	padding: 20px;
+	background-color: #8EB409;
 	float: left;
-	width: 50%;
+	width: 35%;
+	color: white;
+}
+#tinfo p{
+	padding: 20px;
 }
 #tofferings{
-	background-color: #8EB409;
+	background-color: #FFFFFF;
 	padding: 20px;
 	float: right;
-	width: 40%;
+	width: 60%;
 }
 #tofferings a{
 	padding: 20px;
 	display: block;
 	text-decoration: none;
 	color: white;
+	float: left;
+	width: 16%;
+	text-align: center;
+	background-color: #8EB409; 
+	margin:30px;
 }
 footer{
-	/*background-color:#67FF6B;
-	border: 1px black solid;*/
 	padding: 20px;
+	width: 30%;
 }
 
 body{
