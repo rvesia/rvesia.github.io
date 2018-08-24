@@ -37,16 +37,17 @@ header a:hover{
 }
 header{
 	background-color:#424242;
-	padding: 1.5px;
+	padding: 1.5em;
 }
 header img{
-	width:5%;
+	width:5em;
 	margin: 1em;
+	float: left;
 }
 
 .intro{
 	background-color:#FFFFFF;
-	padding: 1.5em;
+	padding: 4em 0;
 	text-align: center;
 }
 #workshops{
@@ -66,10 +67,13 @@ header img{
 }
 
 #winfo{
-	padding: 1.5em;
+	padding: 4em 1.5em;
 	width: 80%;
 	margin: auto;
 	color: white;
+}
+#winfo h2, #minfo h2, #tinfo h2{
+	margin-bottom: 2em;
 }
 
 .offerings a{
@@ -82,13 +86,16 @@ header img{
 	width: 50%;
 	text-align: center;
 }
+#wofferings, #mofferings{
+	margin-bottom: 10em;
+}
 .offerings a:hover, .scroll a:hover{
 	color: white;
 	background-color: #424242;
 }
 .scroll{
 	background-color:#FFFFFF;
-	padding: 1.5em;
+	padding: 4em 1.5em;
 	width: 60%;
 }
 .scroll img{
@@ -104,7 +111,7 @@ header img{
 	text-align: center;
 	display: block;
 	width: 50%;
-	margin: 2em auto;
+	margin: 2em auto 10em;
 	padding: .5em 0;
 }
 
@@ -130,9 +137,12 @@ header img{
 	min-height: 95vh;
 }
 #minfo{
-	padding: 1.5em;
+	padding: 4em 1.5em;
 	color: white;
+	margin: auto;
+	width: 80%;
 }
+
 #mscroll{
 	float: right;
 }
@@ -170,6 +180,7 @@ body{
 h1{
 	font-family: 'Merienda', cursive;
 	font-size: 5em;
+	padding-bottom: 1em;
 }
 h2{
 	text-align: center;
