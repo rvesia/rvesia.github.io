@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+* { margin:0; padding:0; box-sizing:border-box; }
+
+
+
+#logolinks a{
+	padding: 1.5em;
+	float: right;
+}
+nav ul{
+	text-align: center;
+	padding: 0;
+}
+nav li{
+	list-style-type: none;
+	color: white;
+	padding: 1.5em;
+	display: inline-block;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.content {
+	display:none;
+	position: absolute;
+	width: 100%;
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+header a:hover{
+	color: #8EB409;
+}
+header{
+	background-color:#424242;
+	padding: 1.5px;
+}
+header img{
+	width:5%;
+	margin: 1em;
+}
+
+.intro{
+	background-color:#FFFFFF;
+	padding: 1.5em;
+	text-align: center;
+}
+#workshops{
+	padding: 1.5em;
+	position: relative;
+	background-color:#2B2B2B;
+}
+
+#waside{
+	background-color: #8EB409;
+	float: left;
+	width: 35%;
+	position: absolute;
+	top: 1em;
+	position: sticky;
+	min-height: 95vh;
+}
+
+#winfo{
+	padding: 1.5em;
+	width: 80%;
+	margin: auto;
+	color: white;
+}
+
+.offerings a{
+	padding: .5em;
+	margin: 1em auto;
+	display: block;
+	text-decoration: none;
+	color: #8EB409;
+	background-color: white;
+	width: 50%;
+	text-align: center;
+}
+.offerings a:hover, .scroll a:hover{
+	color: white;
+	background-color: #424242;
+}
+.scroll{
+	background-color:#FFFFFF;
+	padding: 1.5em;
+	width: 60%;
+}
+.scroll img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5em;
+}
+.scroll a{
+	text-decoration: none;
+	background-color: #8EB409;
+	color: white;
+	text-align: center;
+	display: block;
+	width: 50%;
+	margin: 2em auto;
+	padding: .5em 0;
+}
+
+#wscroll{
+	float: right;
+}
+.scrollinfo{
+	width: 60%;
+	margin: auto;
+}
+#merch{
+	background-color:#2B2B2B;
+	padding: 1.5em;
+	position: relative;
+}
+#maside{
+	background-color: #8EB409;
+	float: left;
+	width: 35%;
+	position: absolute;
+	top: 1em;
+	position: sticky;
+	min-height: 95vh;
+}
+#minfo{
+	padding: 1.5em;
+	color: white;
+}
+#mscroll{
+	float: right;
+}
+#teachers{
+	background-color:#8EB409;
+	padding: 1.5em;
+}
+#tinfo{
+	float: left;
+	width: 35%;
+	color: white;
+	padding: 1.5em;
+}
+#tofferings{
+	padding: 1.5em;
+	float: right;
+	width: 60%;
+}
+#tofferings a{
+	padding: 2em 0;
+	float: left;
+	width: 48%;
+	text-align: center;
+	margin: 1%;
+}
+footer{
+	padding: 1.5em;
+	width: 30%;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+h1{
+	font-family: 'Merienda', cursive;
+	font-size: 5em;
+}
+h2{
+	text-align: center;
+	font-family: 'Amaranth', sans-serif;
+	margin-bottom: .5em;
+}
+#tagline{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2em;
+}
+
+h3{
+	font-family: 'Amaranth', sans-serif;
+	margin-bottom: 1em;
+	text-align: center;
+}
+h4{
+	font-family: 'Amaranth', sans-serif;
+}
+label{
+	color: white;
+	padding: 1.5em;
+	display: none;
+}
+#toggle{
+	display: none;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+@media screen and (max-width: 1130px){
+	#winfo{
+		padding: .3em;
+		width: 90%;
+	}
+	.scrollinfo{
+		width: 80%;
+	}
+	.info p{
+		display:none;
+	}
+	#waside, #maside{
+		min-height: auto;
+	}
+	#tinfo{
+		float: none;
+		text-align: center;
+		width: 100%;
+		padding: .5em;
+	}
+	#tofferings{
+		width: 74%;
+		padding: .5em;
+		float: none;
+		margin: auto;
+	}
+	.offerings a {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 765px){
+	nav li{
+		/*display: block;*/
+		padding: 1em;
+		display:none;
+	}
+	label{
+		display: block;
+		text-align: center;
+	}
+	#toggle:checked + nav li{
+		display: block;
+	}
+	h1{
+		font-size: 4em;
+	}
+	.scrollinfo{
+		width: 90%;
+	}	
+}
+@media screen and (max-width: 765px){
+	.scroll{
+		display: none;
+	}
+	#waside, #maside{
+		width: 100%
+	}
+	/*#wofferings a{
+		display: inline-block;
+		float: left;
+		width: 45%;
+		margin: .5em;
+	}
+	#wofferings{
+		margin: auto;
+	}*/
+	#tofferings{
+		width: 100%;
+	}
+	#tofferings a{
+		padding: .5em;
+	}
+	#tagline{
+		font-size: 2em;
+	}
+}
+@media screen and (max-width: 638px){
+	#tofferings{
+		width: 100%;
+		background-color: #8EB409;
+	}
+	#tofferings a{
+		padding: .5em;
+		float: none;
+		width: 80%;
+		margin: 1em auto;
+	}
+	#teachers{
+		background-color: #2b2b2b;
+	}
+	#tinfo{
+		background-color: #8eb409;
+	}
+
+}
+@media screen and (max-width: 610px){
+	h1{
+		font-size: 3em;
+	}
+	#tagline{
+		display: none;
+	}
+}
+@media screen and (max-width: 472px){
+	h1{
+		font-size: 2.3em;
+	}
+}
